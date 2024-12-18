@@ -11,6 +11,8 @@ body {
 nav {
     background-color: white;
     padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
 }
 
 p {
@@ -51,6 +53,10 @@ input {
 main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav button {
@@ -71,15 +77,38 @@ nav button {
 
 .card-footer {
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .card-footer * {
     margin-top: 8px;
 }
 
+#destinations {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+    align-items: center;
+}
+
 #subnav {
     padding: 32px 72px 0;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 #subnav button {
@@ -87,6 +116,12 @@ nav button {
     padding: 10px 16px;
     border: 1px solid black;
     background-color: white;
+}
+
+#trending {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 #trending p {
